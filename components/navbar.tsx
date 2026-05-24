@@ -22,7 +22,7 @@ export default function Navbar(){
     return(
         <div>
             
-            <nav className={ `${hasScrolled && 'py-2 bg-darkblue-500 backdrop-blur-[8px] transition-all duration-500 lg:py-4'} navbar flex mb-12 justify-between mx-auto transition-all duration-500 lg:fixed lg:top-0 lg:inset-x-0 `}>
+            <nav className={ `${hasScrolled && 'py-2 bg-white backdrop-blur-[8px] transition-all duration-500 lg:py-4'} navbar flex mb-12 justify-between mx-auto bg-darkblue-500 transition-all duration-500 lg:fixed lg:top-0 lg:inset-x-0 `}>
                 <Link href="/"><Image src="/welcome.png" alt="logo" width={100} height={80}  /></Link>
                 <ul className="lg:flex hidden justify-between align-center text-center gap-8 text-black p-6 space-x-8">
                     <Link href="/"><li>Home</li></Link>
