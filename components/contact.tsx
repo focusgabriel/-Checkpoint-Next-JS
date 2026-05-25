@@ -1,8 +1,15 @@
+import { FaGithub } from "react-icons/fa";
 export default function Contact(){
     return(
         <div id="contact" className="scroll-mt-20">
             <h1 className="text-center font-bold p-6 lg:text-6xl text-3xl ">Contact</h1>
-            <p className="text-center text-xl space-y-6 max-w-4xl mx-auto">You can contact me via 
+            <div className="flex justify-center align-center *:m-4 *:w-24 *:border *:border-[#39686c] *:text-white *:text-2xl">
+                {/* <a href="https://github.com/focusgabriel" className="text-lg text-white font-bold bg-[#39686c]"><button>Github</button></a>
+                <a href="https://x.com/@Charleschi7q" className="text-lg text-white font-bold bg-[#39686c]"><button>X</button></a> */}
+                <button><FaGithub /></button>
+                <button></button>
+            </div>
+            {/* <p className="text-center text-xl space-y-6 max-w-4xl mx-auto">You can contact me via 
                 <span className="text-3-xl text-[#39686c] font-bold"> Email: charlesuchendu750@gmail.com</span>, Or 
                 click the links below to contact me through<a href="https://x.com/@Charleschi7q" className="text-lg text-[#39686c] font-bold"> Twitter </a> 
                 and also <a href="https://github.com/focusgabriel" className="text-lg text-[#39686c] font-bold">Github</a>
@@ -10,7 +17,7 @@ export default function Contact(){
             <ul className="*:py-4 text-center flex justify-center *:px-4 *:text-lg">
                 <li></li>
                 <li></li>
-            </ul>
+            </ul> */}
         </div>
     )
 }

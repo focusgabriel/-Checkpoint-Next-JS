@@ -1,3 +1,4 @@
+import Image from "next/image"
 export default function Skills(){
     return(
         <div className="min-h-screen my-30 scroll-mt-20" id="skills">
@@ -9,17 +10,17 @@ export default function Skills(){
                 <p>Deployment with Vercel, Netlify and other cloud services.</p>
             </div>
             <h2 className="text-center text-2xl mt-10 mb-10">Tech/Skill Stack</h2>
-            <ol className="text-center grid grid-cols-3 gap-4 lg:flex lg:justify-between lg:align-center mx-12 *:rounded-full *:border-2 *:border-[#39686c] *:p-2 *:hover:shadow-[0_0_30px_#39686c,0_0_60px_#39686c] *:hover:scale-125 *:transition duration-500 ease-in-out 2s">
-                <li>JavaScript</li>
-                <li >TypeScript</li>
-                <li >ExpressJs</li>
-                <li >MongoDB</li>
-                <li >MySQL</li>
-                <li >ReactJs</li>
-                <li >NextJs</li>
-                <li >NodeJs</li>
-                <li >HTML</li>
-                <li >CSS</li>
+            <ol className="text-center grid grid-cols-3 gap-4 lg:flex lg:justify-between lg:align-center mx-12 *:rounded-lg *:border-2 *:border-[#39686c] *:w-full *:p-2 *:hover:shadow-[0_0_30px_#39686c,0_0_60px_#39686c] *:h-34 *:hover:scale-125 *:transition duration-500 ease-in-out 2s">
+                <li> <Image src="/icons/js.svg" alt="javascript logo" width={30} height={30} className="block mx-auto my-4"/> JavaScript</li>
+                <li> <Image src="/icons/ts.svg" alt="TypeScript logo" width={30} height={30} className="block mx-auto my-4"/> TypeScript</li>
+                <li> <Image src="/icons/express.jpg" alt="Express logo" width={30} height={30} className="block mx-auto my-4"/> ExpressJs</li>
+                <li> <Image src="/icons/mongodb.jpg" alt="Mongodb logo" width={30} height={30} className="block mx-auto my-4"/> MongoDB</li>
+                <li> <Image src="/icons/sql.svg" alt="SQL logo" width={30} height={30} className="block mx-auto my-4"/> MySQL</li>
+                <li> <Image src="/icons/react.svg" alt="React logo" width={30} height={30} className="block mx-auto my-4"/> ReactJs</li>
+                <li> <Image src="/icons/nextjs.jpg" alt="Nextjs logo" width={30} height={30} className="block mx-auto my-4"/> NextJs</li>
+                <li> <Image src="/icons/node.svg" alt="Node logo" width={30} height={30} className="block mx-auto my-4"/> NodeJs</li>
+                <li> <Image src="/icons/html.svg" alt="HTML logo" width={30} height={30} className="block mx-auto my-4"/> HTML</li>
+                <li> <Image src="/icons/css.svg" alt="CSS logo" width={30} height={30} className="block mx-auto my-4"/> CSS</li>
             </ol>
         </div>
     )

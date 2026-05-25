@@ -22,14 +22,14 @@ export default function Navbar(){
     return(
         <div>
             
-            <nav className={ `${hasScrolled && 'bg-[#000080] backdrop-blur-[8px] transition-all duration-500 lg:py-2'} navbar flex mb-12 justify-center mx-auto text-white transition-all duration-500 lg:fixed lg:top-0 lg:inset-x-0 `}>
+            <nav className={ `${hasScrolled && 'bg-[#39686c] backdrop-blur-[18px] transition-all duration-500 lg:py-2'} navbar flex mb-12 justify-center mx-auto text-white transition-all duration-500 lg:fixed lg:top-0 lg:inset-x-0 `}>
                 {/* <Link href="/"><Image src="/welcome.png" alt="logo" width={100} height={80}  /></Link> */}
-                <ul className="lg:flex hidden justify-around align-center text-center gap-8 text-white p-6 space-x-8">
-                    <Link href="/"><li>Home . </li></Link>
-                    <Link href="#about" className="transition duration-300 ease-in-out 2s"><li>About . </li></Link>
-                    <Link href="#project"><li>Projects . </li></Link>
-                    <Link href="#skills"><li>Skills . </li></Link>
-                    <Link href="#contact"><li>Contact . </li></Link>
+                <ul className="lg:flex hidden justify-around align-center text-center gap-4 text-white p-4 space-x-4">
+                    <Link href="/"><li>Home <span className="ml-6">.</span> </li></Link>
+                    <Link href="#about" className="transition duration-300 ease-in-out 2s"><li>About <span className="ml-4">.</span> </li></Link>
+                    <Link href="#project"><li>Projects <span className="ml-4">.</span> </li></Link>
+                    <Link href="#skills"><li>Skills <span className="ml-4">.</span> </li></Link>
+                    <Link href="#contact"><li>Contact </li></Link>
                 </ul>
 
                 <div className={`${isOpen ? "block" :"hidden"} md:hidden`}>
