@@ -10,7 +10,7 @@ export default function Skills(){
                 <p>Deployment with Vercel, Netlify and other cloud services.</p>
             </div>
             <h2 className="text-center text-2xl mt-10 mb-10">Tech/Skill Stack</h2>
-            <ol className="text-center grid grid-cols-3 gap-4 lg:flex lg:justify-between lg:align-center mx-12 *:rounded-lg *:border-2 *:border-[#39686c] *:w-full *:p-2 *:hover:shadow-[0_0_30px_#39686c,0_0_60px_#39686c] *:h-34 *:hover:scale-125 *:transition duration-500 ease-in-out 2s">
+            <ol className="text-center grid grid-cols-3 gap-4 lg:flex lg:justify-between lg:align-center mx-12 *:rounded-lg *:border-2 *:border-[#39686c] *:w-full *:p-2 *:hover:shadow-[0_0_30px_#39686c,0_0_60px_#39686c] *:h-34 *:hover:scale-90 lg:*:hover:scale-125 lg:*:transition">
                 <li> <Image src="/icons/js.svg" alt="javascript logo" width={30} height={30} className="block mx-auto my-4"/> JavaScript</li>
                 <li> <Image src="/icons/ts.svg" alt="TypeScript logo" width={30} height={30} className="block mx-auto my-4"/> TypeScript</li>
                 <li> <Image src="/icons/express.jpg" alt="Express logo" width={30} height={30} className="block mx-auto my-4"/> ExpressJs</li>
